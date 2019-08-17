@@ -1,35 +1,7 @@
-print("digite numero 1, numero 2 y numero 3 en respectivo orden")
+print ("elija el numero que desee para sumarlos")
 
-numero_a = int(input("escriba el primer numero"))
+num = int(input("dijite un numero 1: "))
+num2 = int(input("dijite un numero 2: "))
 
-numero_b = int(input("escriba el segundo numero"))
-
-numero_c = int(input("escriba el tercer numero"))
-
-if numero_a > numero_b:
-
-    print(f"el numero mayor es: {numero_a}") 
-
-        if numero_a > numero_b:
-
-            print(f"el numero mayor es:  {numero_a}")
-
-        elif:
-
-            print(f"el numero mayor es: {numero_c}")
-
-elif:
-
-    print(f"el numero mayor es: {numero_b}")
-
-        if numero_b > numero_c:
-
-            print(f"el numero mayor es {numero_b}")
-
-        else:
-
-            print(f"el numero mayor es {numero_c}")
-
-
-
-            
+num3 = num+num2
+print (f"su numero es: {num3}")
