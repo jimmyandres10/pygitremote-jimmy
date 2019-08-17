@@ -1,8 +1,7 @@
-print ("elija el numero que desee")
+print ("elija el numero que desee para multiplicarlos")
 
-num = int(input("dijite un numero: "))
+num = int(input("dijite un numero 1: "))
+num2 = int(input("dijite un numero 2: "))
 
-if num % 2==0:
-    print("este numero es par")
-else:
-    print("este numero es impar")
+num3 = num*num2
+print (f"su numero es: {num3}")
